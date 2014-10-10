@@ -36,7 +36,48 @@ button {
     border-radius: 2px;
     -webkit-user-select: none;
     font: -webkit-small-control;
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; 
+}
+
+#signinb {
+    color: white;
+    font-weight: bold;
+    background: #4285f4;
+    border: none;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 4px;
+    margin-right: 10px
     
     
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    font-family: Arial, sans-serif;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 13px;
+    color: #4e4e4e;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+    
+    
