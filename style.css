@@ -1,3 +1,7 @@
+body {
+ margin: 0;
+}
+
 .main_body {
     position: absolute;
     width: 600px;    
@@ -48,9 +52,35 @@ button {
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 4px;
-    margin-right: 10px
+    margin-right: 10px   
     
-    
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #f2f2f2; 
+    border-top: 1px solid #e4e4e4;
+    height: 35px;
+    padding: 5px;
+}
+
+.footer ul {
+}
+
+.footer ul a {
+    margin-left: 15px;
+    margin-right: 20px;
+    line-height: 35px;
+}
+
+#ulfleft {
+    float:left;
+}
+
+#ulfright {
+   float: right;
 }
 
 ul {
@@ -71,6 +101,8 @@ a {
     font-size: 13px;
     color: #4e4e4e;
 }
+
+
 
 a:link {
     text-decoration: none;
